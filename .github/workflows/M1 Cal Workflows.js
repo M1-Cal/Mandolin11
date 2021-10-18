@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: M1 Cal
+name: M1-Cal
 
 # Controls when the action will run. 
 on:
