@@ -1,0 +1,1 @@
+[![Codacy Security Scan](https://github.com/monstro805/Monsters-brew/actions/workflows/codacy-analysis.yml/badge.svg?branch=circleci-project-setup)](https://github.com/monstro805/Monsters-brew/actions/workflows/codacy-analysis.yml)
