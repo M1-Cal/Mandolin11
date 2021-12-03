@@ -1,0 +1,7 @@
+#  https://github.com/jlord/sheetsee.js/blob/master/scripts/buildpage.js
+git fetch origin
+git checkout -b dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-4.28.3 origin/dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-4.28.3
+git merge master
+git checkout master
+git merge --no-ff dependabot/npm_and_yarn/typescript-eslint/eslint-plugin-4.28.3
+git push origin master
