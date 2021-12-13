@@ -1,6 +1,6 @@
 WikiPEG
 ======
-
+https://raw.githubusercontent.com/M1-Cal/potential-money/Master1/logo.png
 WikiPEG is a recursive descent parser generator for Node.js, intended mostly
 to support Parsoid's complex needs. It is a fork of PEG.js with a new backend.
 
