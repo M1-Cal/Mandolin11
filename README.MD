@@ -1,4 +1,4 @@
-# action.js
+# https://maldito-dot.github.io/potential-money
 
 > GitHub API client for GitHub Actions
 
