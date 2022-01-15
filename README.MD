@@ -1,4 +1,4 @@
-# https://maldito-dot.github.io/potential-money
+<maldito-dot.github.io/Hello-World
 
 - GitHub API client for GitHub Actions
 
