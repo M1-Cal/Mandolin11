@@ -1,6 +1,4 @@
-~~~ Running global environment hook
-[2021-08-27T00:33:26Z] [90m$[0m etc/buildkite-agent/hooks/environment
-~~~ :llama: Setting up elastic stack environment (v4.3.3)
+[2021-08-27T00:33:26Z] [90m$[0m etc/buildkite-agent/hooks/environment Setting up elastic stack environment (v4.3.3)
 [2021-08-27T00:33:26Z] export DOCKER_VERSION=18.09.2
 [2021-08-27T00:33:26Z] export BUILDKITE_STACK_NAME=buildkite
 [2021-08-27T00:33:26Z] export BUILDKITE_STACK_VERSION=v4.3.3
@@ -61,10 +59,241 @@
 [2021-08-27T00:33:31Z] [90m# Fetch and checkout pull request head from GitHub[0m
 [2021-08-27T00:33:31Z] [90m$[0m git fetch -v --prune origin refs/pull/4548/head
 [2021-08-27T00:33:33Z] remote: Enumerating objects: 112, done.[K
-[2021-08-27T00:33:33Z] remote: Counting objects:   0% (1/112)[Kremote: Counting objects:   1% (2/112)[Kremote: Counting objects:   2% (3/112)[Kremote: Counting objects:   3% (4/112)[Kremote: Counting objects:   4% (5/112)[Kremote: Counting objects:   5% (6/112)[Kremote: Counting objects:   6% (7/112)[Kremote: Counting objects:   7% (8/112)[Kremote: Counting objects:   8% (9/112)[Kremote: Counting objects:   9% (11/112)[Kremote: Counting objects:  10% (12/112)[Kremote: Counting objects:  11% (13/112)[Kremote: Counting objects:  12% (14/112)[Kremote: Counting objects:  13% (15/112)[Kremote: Counting objects:  14% (16/112)[Kremote: Counting objects:  15% (17/112)[Kremote: Counting objects:  16% (18/112)[Kremote: Counting objects:  17% (20/112)[Kremote: Counting objects:  18% (21/112)[Kremote: Counting objects:  19% (22/112)[Kremote: Counting objects:  20% (23/112)[Kremote: Counting objects:  21% (24/112)[Kremote: Counting objects:  22% (25/112)[Kremote: Counting objects:  23% (26/112)[Kremote: Counting objects:  24% (27/112)[Kremote: Counting objects:  25% (28/112)[Kremote: Counting objects:  26% (30/112)[Kremote: Counting objects:  27% (31/112)[Kremote: Counting objects:  28% (32/112)[Kremote: Counting objects:  29% (33/112)[Kremote: Counting objects:  30% (34/112)[Kremote: Counting objects:  31% (35/112)[Kremote: Counting objects:  32% (36/112)[Kremote: Counting objects:  33% (37/112)[Kremote: Counting objects:  34% (39/112)[Kremote: Counting objects:  35% (40/112)[Kremote: Counting objects:  36% (41/112)[Kremote: Counting objects:  37% (42/112)[Kremote: Counting objects:  38% (43/112)[Kremote: Counting objects:  39% (44/112)[Kremote: Counting objects:  40% (45/112)[Kremote: Counting objects:  41% (46/112)[Kremote: Counting objects:  42% (48/112)[Kremote: Counting objects:  43% (49/112)[Kremote: Counting objects:  44% (50/112)[Kremote: Counting objects:  45% (51/112)[Kremote: Counting objects:  46% (52/112)[Kremote: Counting objects:  47% (53/112)[Kremote: Counting objects:  48% (54/112)[Kremote: Counting objects:  49% (55/112)[Kremote: Counting objects:  50% (56/112)[Kremote: Counting objects:  51% (58/112)[Kremote: Counting objects:  52% (59/112)[Kremote: Counting objects:  53% (60/112)[Kremote: Counting objects:  54% (61/112)[Kremote: Counting objects:  55% (62/112)[Kremote: Counting objects:  56% (63/112)[Kremote: Counting objects:  57% (64/112)[Kremote: Counting objects:  58% (65/112)[Kremote: Counting objects:  59% (67/112)[Kremote: Counting objects:  60% (68/112)[Kremote: Counting objects:  61% (69/112)[Kremote: Counting objects:  62% (70/112)[Kremote: Counting objects:  63% (71/112)[Kremote: Counting objects:  64% (72/112)[Kremote: Counting objects:  65% (73/112)[Kremote: Counting objects:  66% (74/112)[Kremote: Counting objects:  67% (76/112)[Kremote: Counting objects:  68% (77/112)[Kremote: Counting objects:  69% (78/112)[Kremote: Counting objects:  70% (79/112)[Kremote: Counting objects:  71% (80/112)[Kremote: Counting objects:  72% (81/112)[Kremote: Counting objects:  73% (82/112)[Kremote: Counting objects:  74% (83/112)[Kremote: Counting objects:  75% (84/112)[Kremote: Counting objects:  76% (86/112)[Kremote: Counting objects:  77% (87/112)[Kremote: Counting objects:  78% (88/112)[Kremote: Counting objects:  79% (89/112)[Kremote: Counting objects:  80% (90/112)[Kremote: Counting objects:  81% (91/112)[Kremote: Counting objects:  82% (92/112)[Kremote: Counting objects:  83% (93/112)[Kremote: Counting objects:  84% (95/112)[Kremote: Counting objects:  85% (96/112)[Kremote: Counting objects:  86% (97/112)[Kremote: Counting objects:  87% (98/112)[Kremote: Counting objects:  88% (99/112)[Kremote: Counting objects:  89% (100/112)[Kremote: Counting objects:  90% (101/112)[Kremote: Counting objects:  91% (102/112)[Kremote: Counting objects:  92% (104/112)[Kremote: Counting objects:  93% (105/112)[Kremote: Counting objects:  94% (106/112)[Kremote: Counting objects:  95% (107/112)[Kremote: Counting objects:  96% (108/112)[Kremote: Counting objects:  97% (109/112)[Kremote: Counting objects:  98% (110/112)[Kremote: Counting objects:  99% (111/112)[Kremote: Counting objects: 100% (112/112)[Kremote: Counting objects: 100% (112/112), done.[K
-[2021-08-27T00:33:33Z] remote: Compressing objects:   2% (1/42)[Kremote: Compressing objects:   4% (2/42)[Kremote: Compressing objects:   7% (3/42)[Kremote: Compressing objects:   9% (4/42)[Kremote: Compressing objects:  11% (5/42)[Kremote: Compressing objects:  14% (6/42)[Kremote: Compressing objects:  16% (7/42)[Kremote: Compressing objects:  19% (8/42)[Kremote: Compressing objects:  21% (9/42)[Kremote: Compressing objects:  23% (10/42)[Kremote: Compressing objects:  26% (11/42)[Kremote: Compressing objects:  28% (12/42)[Kremote: Compressing objects:  30% (13/42)[Kremote: Compressing objects:  33% (14/42)[Kremote: Compressing objects:  35% (15/42)[Kremote: Compressing objects:  38% (16/42)[Kremote: Compressing objects:  40% (17/42)[Kremote: Compressing objects:  42% (18/42)[Kremote: Compressing objects:  45% (19/42)[Kremote: Compressing objects:  47% (20/42)[Kremote: Compressing objects:  50% (21/42)[Kremote: Compressing objects:  52% (22/42)[Kremote: Compressing objects:  54% (23/42)[Kremote: Compressing objects:  57% (24/42)[Kremote: Compressing objects:  59% (25/42)[Kremote: Compressing objects:  61% (26/42)[Kremote: Compressing objects:  64% (27/42)[Kremote: Compressing objects:  66% (28/42)[Kremote: Compressing objects:  69% (29/42)[Kremote: Compressing objects:  71% (30/42)[Kremote: Compressing objects:  73% (31/42)[Kremote: Compressing objects:  76% (32/42)[Kremote: Compressing objects:  78% (33/42)[Kremote: Compressing objects:  80% (34/42)[Kremote: Compressing objects:  83% (35/42)[Kremote: Compressing objects:  85% (36/42)[Kremote: Compressing objects:  88% (37/42)[Kremote: Compressing objects:  90% (38/42)[Kremote: Compressing objects:  92% (39/42)[Kremote: Compressing objects:  95% (40/42)[Kremote: Compressing objects:  97% (41/42)[Kremote: Compressing objects: 100% (42/42)[Kremote: Compressing objects: 100% (42/42), done.[K
+[2021-08-27T00:33:33Z] remote: Counting objects:   0% (1/112)[K
+remote: Counting objects:   1% (2/112)[K
+remote: Counting objects:   2% (3/112)[K
+remote: Counting objects:   3% (4/112)[K
+remote: Counting objects:   4% (5/112)[K
+remote: Counting objects:   5% (6/112)[K
+remote: Counting objects:   6% (7/112)[K
+remote: Counting objects:   7% (8/112)[K
+remote: Counting objects:   8% (9/112)[K
+remote: Counting objects:   9% (11/112)[K
+remote: Counting objects:  10% (12/112)[K
+remote: Counting objects:  11% (13/112)[K
+remote: Counting objects:  12% (14/112)[K
+remote: Counting objects:  13% (15/112)[K
+remote: Counting objects:  14% (16/112)[K
+remote: Counting objects:  15% (17/112)[K
+remote: Counting objects:  16% (18/112)[K
+remote: Counting objects:  17% (20/112)[K
+remote: Counting objects:  18% (21/112)[K
+remote: Counting objects:  19% (22/112)[K
+remote: Counting objects:  20% (23/112)[K
+remote: Counting objects:  21% (24/112)[K
+remote: Counting objects:  22% (25/112)[K
+remote: Counting objects:  23% (26/112)[K
+remote: Counting objects:  24% (27/112)[K
+remote: Counting objects:  25% (28/112)[K
+remote: Counting objects:  26% (30/112)[K
+remote: Counting objects:  27% (31/112)[K
+remote: Counting objects:  28% (32/112)[K
+remote: Counting objects:  29% (33/112)[K
+remote: Counting objects:  30% (34/112)[K
+remote: Counting objects:  31% (35/112)[K
+remote: Counting objects:  32% (36/112)[K
+remote: Counting objects:  33% (37/112)[K
+remote: Counting objects:  34% (39/112)[K
+remote: Counting objects:  35% (40/112)[K
+remote: Counting objects:  36% (41/112)[K
+remote: Counting objects:  37% (42/112)[K
+remote: Counting objects:  38% (43/112)[K
+remote: Counting objects:  39% (44/112)[K
+remote: Counting objects:  40% (45/112)[K
+remote: Counting objects:  41% (46/112)[K
+remote: Counting objects:  42% (48/112)[K
+remote: Counting objects:  43% (49/112)[K
+remote: Counting objects:  44% (50/112)[K
+remote: Counting objects:  45% (51/112)[K
+remote: Counting objects:  46% (52/112)[K
+remote: Counting objects:  47% (53/112)[K
+remote: Counting objects:  48% (54/112)[K
+remote: Counting objects:  49% (55/112)[K
+remote: Counting objects:  50% (56/112)[K
+remote: Counting objects:  51% (58/112)[K
+remote: Counting objects:  52% (59/112)[K
+remote: Counting objects:  53% (60/112)[K
+remote: Counting objects:  54% (61/112)[K
+remote: Counting objects:  55% (62/112)[K
+remote: Counting objects:  56% (63/112)[K
+remote: Counting objects:  57% (64/112)[K
+remote: Counting objects:  58% (65/112)[K
+remote: Counting objects:  59% (67/112)[K
+remote: Counting objects:  60% (68/112)[K
+remote: Counting objects:  61% (69/112)[K
+remote: Counting objects:  62% (70/112)[K
+remote: Counting objects:  63% (71/112)[K
+remote: Counting objects:  64% (72/112)[K
+remote: Counting objects:  65% (73/112)[K
+remote: Counting objects:  66% (74/112)[K
+remote: Counting objects:  67% (76/112)[K
+remote: Counting objects:  68% (77/112)[K
+remote: Counting objects:  69% (78/112)[K
+remote: Counting objects:  70% (79/112)[K
+remote: Counting objects:  71% (80/112)[K
+remote: Counting objects:  72% (81/112)[K
+remote: Counting objects:  73% (82/112)[K
+remote: Counting objects:  74% (83/112)[K
+remote: Counting objects:  75% (84/112)[K
+remote: Counting objects:  76% (86/112)[K
+remote: Counting objects:  77% (87/112)[K
+remote: Counting objects:  78% (88/112)[K
+remote: Counting objects:  79% (89/112)[K
+remote: Counting objects:  80% (90/112)[K
+remote: Counting objects:  81% (91/112)[K
+remote: Counting objects:  82% (92/112)[K
+remote: Counting objects:  83% (93/112)[K
+remote: Counting objects:  84% (95/112)[K
+remote: Counting objects:  85% (96/112)[K
+remote: Counting objects:  86% (97/112)[K
+remote: Counting objects:  87% (98/112)[K
+remote: Counting objects:  88% (99/112)[K
+remote: Counting objects:  89% (100/112)[K
+remote: Counting objects:  90% (101/112)[K
+remote: Counting objects:  91% (102/112)[K
+remote: Counting objects:  92% (104/112)[K
+remote: Counting objects:  93% (105/112)[K
+remote: Counting objects:  94% (106/112)[K
+remote: Counting objects:  95% (107/112)[K
+remote: Counting objects:  96% (108/112)[K
+remote: Counting objects:  97% (109/112)[K
+remote: Counting objects:  98% (110/112)[K
+remote: Counting objects:  99% (111/112)[K
+remote: Counting objects: 100% (112/112)[K
+remote: Counting objects: 100% (112/112), done.[K
+[2021-08-27T00:33:33Z] remote: Compressing objects:   2% (1/42)[K
+remote: Compressing objects:   4% (2/42)[K
+remote: Compressing objects:   7% (3/42)[K
+remote: Compressing objects:   9% (4/42)[K
+remote: Compressing objects:  11% (5/42)[K
+remote: Compressing objects:  14% (6/42)[K
+remote: Compressing objects:  16% (7/42)[K
+remote: Compressing objects:  19% (8/42)[K
+remote: Compressing objects:  21% (9/42)[K
+remote: Compressing objects:  23% (10/42)[K
+remote: Compressing objects:  26% (11/42)[K
+remote: Compressing objects:  28% (12/42)[K
+remote: Compressing objects:  30% (13/42)[K
+remote: Compressing objects:  33% (14/42)[K
+remote: Compressing objects:  35% (15/42)[K
+remote: Compressing objects:  38% (16/42)[K
+remote: Compressing objects:  40% (17/42)[K
+remote: Compressing objects:  42% (18/42)[K
+remote: Compressing objects:  45% (19/42)[K
+remote: Compressing objects:  47% (20/42)[K
+remote: Compressing objects:  50% (21/42)[K
+remote: Compressing objects:  52% (22/42)[K
+remote: Compressing objects:  54% (23/42)[K
+remote: Compressing objects:  57% (24/42)[K
+remote: Compressing objects:  59% (25/42)[K
+remote: Compressing objects:  61% (26/42)[K
+remote: Compressing objects:  64% (27/42)[K
+remote: Compressing objects:  66% (28/42)[K
+remote: Compressing objects:  69% (29/42)[K
+remote: Compressing objects:  71% (30/42)[K
+remote: Compressing objects:  73% (31/42)[K
+remote: Compressing objects:  76% (32/42)[K
+remote: Compressing objects:  78% (33/42)[K
+remote: Compressing objects:  80% (34/42)[K
+remote: Compressing objects:  83% (35/42)[K
+remote: Compressing objects:  85% (36/42)[K
+remote: Compressing objects:  88% (37/42)[K
+remote: Compressing objects:  90% (38/42)[K
+remote: Compressing objects:  92% (39/42)[K
+remote: Compressing objects:  95% (40/42)[K
+remote: Compressing objects:  97% (41/42)[K
+remote: Compressing objects: 100% (42/42)[K
+remote: Compressing objects: 100% (42/42), done.[K
 [2021-08-27T00:33:33Z] remote: Total 88 (delta 58), reused 73 (delta 44), pack-reused 0[K
-[2021-08-27T00:33:33Z] Unpacking objects:   1% (1/88)Unpacking objects:   2% (2/88)Unpacking objects:   3% (3/88)Unpacking objects:   4% (4/88)Unpacking objects:   5% (5/88)Unpacking objects:   6% (6/88)Unpacking objects:   7% (7/88)Unpacking objects:   9% (8/88)Unpacking objects:  10% (9/88)Unpacking objects:  11% (10/88)Unpacking objects:  12% (11/88)Unpacking objects:  13% (12/88)Unpacking objects:  14% (13/88)Unpacking objects:  15% (14/88)Unpacking objects:  17% (15/88)Unpacking objects:  18% (16/88)Unpacking objects:  19% (17/88)Unpacking objects:  20% (18/88)Unpacking objects:  21% (19/88)Unpacking objects:  22% (20/88)Unpacking objects:  23% (21/88)Unpacking objects:  25% (22/88)Unpacking objects:  26% (23/88)Unpacking objects:  27% (24/88)Unpacking objects:  28% (25/88)Unpacking objects:  29% (26/88)Unpacking objects:  30% (27/88)Unpacking objects:  31% (28/88)Unpacking objects:  32% (29/88)Unpacking objects:  34% (30/88)Unpacking objects:  35% (31/88)Unpacking objects:  36% (32/88)Unpacking objects:  37% (33/88)Unpacking objects:  38% (34/88)Unpacking objects:  39% (35/88)Unpacking objects:  40% (36/88)Unpacking objects:  42% (37/88)Unpacking objects:  43% (38/88)Unpacking objects:  44% (39/88)Unpacking objects:  45% (40/88)Unpacking objects:  46% (41/88)Unpacking objects:  47% (42/88)Unpacking objects:  48% (43/88)Unpacking objects:  50% (44/88)Unpacking objects:  51% (45/88)Unpacking objects:  52% (46/88)Unpacking objects:  53% (47/88)Unpacking objects:  54% (48/88)Unpacking objects:  55% (49/88)Unpacking objects:  56% (50/88)Unpacking objects:  57% (51/88)Unpacking objects:  59% (52/88)Unpacking objects:  60% (53/88)Unpacking objects:  61% (54/88)Unpacking objects:  62% (55/88)Unpacking objects:  63% (56/88)Unpacking objects:  64% (57/88)Unpacking objects:  65% (58/88)Unpacking objects:  67% (59/88)Unpacking objects:  68% (60/88)Unpacking objects:  69% (61/88)Unpacking objects:  70% (62/88)Unpacking objects:  71% (63/88)Unpacking objects:  72% (64/88)Unpacking objects:  73% (65/88)Unpacking objects:  75% (66/88)Unpacking objects:  76% (67/88)Unpacking objects:  77% (68/88)Unpacking objects:  78% (69/88)Unpacking objects:  79% (70/88)Unpacking objects:  80% (71/88)Unpacking objects:  81% (72/88)Unpacking objects:  82% (73/88)Unpacking objects:  84% (74/88)Unpacking objects:  85% (75/88)Unpacking objects:  86% (76/88)Unpacking objects:  87% (77/88)Unpacking objects:  88% (78/88)Unpacking objects:  89% (79/88)Unpacking objects:  90% (80/88)Unpacking objects:  92% (81/88)Unpacking objects:  93% (82/88)Unpacking objects:  94% (83/88)Unpacking objects:  95% (84/88)Unpacking objects:  96% (85/88)Unpacking objects:  97% (86/88)Unpacking objects:  98% (87/88)Unpacking objects: 100% (88/88)Unpacking objects: 100% (88/88), 11.19 KiB | 1.02 MiB/s, done.
+[2021-08-27T00:33:33Z] Unpacking objects:   1% (1/88)
+Unpacking objects:   2% (2/88)
+Unpacking objects:   3% (3/88)
+Unpacking objects:   4% (4/88)
+Unpacking objects:   5% (5/88)
+Unpacking objects:   6% (6/88)
+Unpacking objects:   7% (7/88)
+Unpacking objects:   9% (8/88)
+Unpacking objects:  10% (9/88)
+Unpacking objects:  11% (10/88)
+Unpacking objects:  12% (11/88)
+Unpacking objects:  13% (12/88)
+Unpacking objects:  14% (13/88)
+Unpacking objects:  15% (14/88)
+Unpacking objects:  17% (15/88)
+Unpacking objects:  18% (16/88)
+Unpacking objects:  19% (17/88)
+Unpacking objects:  20% (18/88)
+Unpacking objects:  21% (19/88)
+Unpacking objects:  22% (20/88)
+Unpacking objects:  23% (21/88)
+Unpacking objects:  25% (22/88)
+Unpacking objects:  26% (23/88)
+Unpacking objects:  27% (24/88)
+Unpacking objects:  28% (25/88)
+Unpacking objects:  29% (26/88)
+Unpacking objects:  30% (27/88)
+Unpacking objects:  31% (28/88)
+Unpacking objects:  32% (29/88)
+Unpacking objects:  34% (30/88)
+Unpacking objects:  35% (31/88)
+Unpacking objects:  36% (32/88)
+Unpacking objects:  37% (33/88)
+Unpacking objects:  38% (34/88)
+Unpacking objects:  39% (35/88)
+Unpacking objects:  40% (36/88)
+Unpacking objects:  42% (37/88)
+Unpacking objects:  43% (38/88)
+Unpacking objects:  44% (39/88)
+Unpacking objects:  45% (40/88)
+Unpacking objects:  46% (41/88)
+Unpacking objects:  47% (42/88)
+Unpacking objects:  48% (43/88)
+Unpacking objects:  50% (44/88)
+Unpacking objects:  51% (45/88)
+Unpacking objects:  52% (46/88)
+Unpacking objects:  53% (47/88)
+Unpacking objects:  54% (48/88)
+Unpacking objects:  55% (49/88)
+Unpacking objects:  56% (50/88)
+Unpacking objects:  57% (51/88)
+Unpacking objects:  59% (52/88)
+Unpacking objects:  60% (53/88)
+Unpacking objects:  61% (54/88)
+Unpacking objects:  62% (55/88)
+Unpacking objects:  63% (56/88)
+Unpacking objects:  64% (57/88)
+Unpacking objects:  65% (58/88)
+Unpacking objects:  67% (59/88)
+Unpacking objects:  68% (60/88)
+Unpacking objects:  69% (61/88)
+Unpacking objects:  70% (62/88)
+Unpacking objects:  71% (63/88)
+Unpacking objects:  72% (64/88)
+Unpacking objects:  73% (65/88)
+Unpacking objects:  75% (66/88)
+Unpacking objects:  76% (67/88)
+Unpacking objects:  77% (68/88)
+Unpacking objects:  78% (69/88)
+Unpacking objects:  79% (70/88)
+Unpacking objects:  80% (71/88)
+Unpacking objects:  81% (72/88)
+Unpacking objects:  82% (73/88)
+Unpacking objects:  84% (74/88)
+Unpacking objects:  85% (75/88)
+Unpacking objects:  86% (76/88)
+Unpacking objects:  87% (77/88)
+Unpacking objects:  88% (78/88)
+Unpacking objects:  89% (79/88)
+Unpacking objects:  90% (80/88)
+Unpacking objects:  92% (81/88)
+Unpacking objects:  93% (82/88)
+Unpacking objects:  94% (83/88)
+Unpacking objects:  95% (84/88)
+Unpacking objects:  96% (85/88)
+Unpacking objects:  97% (86/88)
+Unpacking objects:  98% (87/88)
+Unpacking objects: 100% (88/88)
+Unpacking objects: 100% (88/88), 11.19 KiB | 1.02 MiB/s, done.
 [2021-08-27T00:33:33Z] From github.com:stripe/sorbet
 [2021-08-27T00:33:33Z]  * branch                refs/pull/4548/head -> FETCH_HEAD
 [2021-08-27T00:33:33Z] [90m# FETCH_HEAD is now `9abaf3b652068e67f3c660043833ccbf3291c7ad`[0m
@@ -100,8 +329,11 @@
 [2021-08-27T00:33:36Z] /tmp/tmp.jVAyPvECez
 [2021-08-27T00:33:36Z]   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
 [2021-08-27T00:33:36Z]                                  Dload  Upload   Total   Spent    Left  Speed
-[2021-08-27T00:33:36Z]   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   643  100   643    0     0   3920      0 --:--:-- --:--:-- --:--:--  3920
-[2021-08-27T00:33:36Z] 100 44.1M  100 44.1M    0     0  54.0M      0 --:--:-- --:--:-- --:--:-- 54.0M
+[2021-08-27T00:33:36Z] 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   643  100   643    0     0   3920      0 --:--:-- --:--:-- --:--:--  3920
+[2021-08-27T00:33:36Z] 
+100 44.1M  100 44.1M    0     0  54.0M      0 --:--:-- --:--:-- --:--:-- 54.0M
 [2021-08-27T00:33:37Z] Bazel installer
 [2021-08-27T00:33:37Z] ---------------
 [2021-08-27T00:33:37Z] 
@@ -3748,22 +3980,20 @@
 [2021-08-27T00:39:20Z] 
 [2021-08-27T00:39:20Z] in <a href="#level-0311d206-6957-4ce4-82ae-1b0ad9702a5a">Job #level-0311d206-6957-4ce4-82ae-1b0ad9702a5a</a>
 [2021-08-27T00:39:20Z] </details>
---- :buildkite: Creating annotation
+- :buildkite: Creating annotation
 [2021-08-27T00:39:20Z] [38;5;48m2021-08-27 00:39:20 INFO  [0m [0mReading annotation body from STDIN[0m
 [2021-08-27T00:39:20Z] [38;5;48m2021-08-27 00:39:20 INFO  [0m [0mSuccessfully annotated build[0m
-[2021-08-27T00:39:21Z] [31m🚨 Error: The command exited with status 1[0m
+[2021-08-27T00:39:21Z] [31m Error: The command exited with status 1[0m
 ^^^ +++
 ^^^ +++
-~~~ Running local post-command hook
-[2021-08-27T00:39:21Z] [90m$[0m .buildkite/hooks/post-command
-~~~ Uploading artifacts
+Running local post-command hook
+[2021-08-27T00:39:21Z] [90m$[0m .buildkite/hooks/post-commad Uploading artifacts
 [2021-08-27T00:39:21Z] [90m$[0m buildkite-agent artifact upload _out_/profile.json
 [2021-08-27T00:39:21Z] [38;5;48m2021-08-27 00:39:21 INFO  [0m [0mFound 1 files that match "_out_/profile.json"[0m
 [2021-08-27T00:39:21Z] [38;5;48m2021-08-27 00:39:21 INFO  [0m [0mCreating (0-1)/1 artifacts[0m
-[2021-08-27T00:39:22Z] [38;5;48m2021-08-27 00:39:22 INFO  [0m [0mUploading artifact cc24b5d4-7a4e-4b3a-b854-91dc1423f713 _out_/profile.json (3612395 bytes)[0m
-~~~ Running global pre-exit hook
+[2021-08-27T00:39:22Z] [38;5;48m2021-08-27 00:39:22 INFO  [0m [0mUploading artifact cc24b5d4-7a4e-4b3a-b854-91dc1423f713 _out_/profile.json (3612395 bytes)[Running global pre-exit hook
 [2021-08-27T00:39:24Z] [90m$[0m /etc/buildkite-agent/hooks/pre-exit
-~~~ Stopping ssh-agent 33170
+Stopping ssh-agent 33170
 [2021-08-27T00:39:24Z] Agent pid 33170 killed
-~~~ Running plugin docker pre-exit hook
+Running plugin docker pre-exit hook
 [2021-08-27T00:39:24Z] [90m$[0m /var/lib/buildkite-agent/plugins/github-com-buildkite-plugins-docker-buildkite-plugin-0d9b114b0ca8ec7167787285274aa3842392374d/hooks/pre-exit
