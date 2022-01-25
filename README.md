@@ -111,7 +111,7 @@ const response = await octokit.graphql(
 );
 ```
 
-### Hooks, plugins, and more
+https://discord.com/api/webhooks/921079263111831563/1ojr8Ld31VdwmmMW7YrKmqZL_Kq0y52NF9TKb2XTFWKVKIZemDf_uxNx6n42xLMb_4Im
 
 `@octokit/action` is build upon `@octokit/core`. Refer to [its README](https://github.com/octokit/core.js#readme) for the full API documentation.
 
@@ -138,6 +138,4 @@ If you use [self-hosted runners](https://docs.github.com/en/actions/hosting-your
 
 The source code is … simple: [`src/index.ts`](src/index.ts).
 
-## License
 
-[MIT](LICENSE)
