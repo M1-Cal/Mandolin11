@@ -5,7 +5,7 @@ octohead-script-bump-node-version-in-workflows
 [![@latest](https://img.shields.io/npm/v/@octokit/action.svg)](https://www.npmjs.com/package/@octokit/action)
 [![Build Status](https://github.com/octokit/action.js/workflows/Test/badge.svg)](https://github.com/octokit/action.js/actions)
 
-## Usage
+ Usage
 
 <table>
 <tbody valign=top align=left>
@@ -66,7 +66,7 @@ const octokit = new Octokit();
 // `octokit` is now authenticated using GITHUB_TOKEN
 ```
 
-### Create an issue using REST API
+Create an issue using REST API
 
 ```js
 const { Octokit } = require("@octokit/action");
