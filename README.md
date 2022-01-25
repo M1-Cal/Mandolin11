@@ -1,4 +1,4 @@
-# action.js
+octohead-script-bump-node-version-in-workflows
 
 > GitHub API client for GitHub Actions
 
