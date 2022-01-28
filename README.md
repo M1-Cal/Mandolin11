@@ -1,4 +1,4 @@
-https://www1.domain.com/controlpanel/foundation/m1cal.net/summary
+-https://www1.domain.com/controlpanel/foundation/m1cal.net/summary
 
 > GitHub API client for GitHub Actions
 
