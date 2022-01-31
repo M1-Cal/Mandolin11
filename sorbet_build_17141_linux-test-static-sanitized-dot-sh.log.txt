@@ -49,9 +49,9 @@
 [2021-08-27T00:33:31Z] [90m# BUILDKITE_PLUGIN_S3_SECRETS_BUCKET changed[0m
 [2021-08-27T00:33:31Z] [90m# ECR_PLUGIN_ENABLED changed[0m
 [2021-08-27T00:33:31Z] [90m# BUILDKITE_ECR_POLICY changed[0m
-~~~ Setting up plugins
+- Setting up plugins
 [2021-08-27T00:33:31Z] [90m# Plugin "github.com/buildkite-plugins/docker-buildkite-plugin#0d9b114b0ca8ec7167787285274aa3842392374d" already checked out (0d9b114)[0m
-~~~ Preparing working directory
+- Preparing working directory
 [2021-08-27T00:33:31Z] [90m$[0m cd /var/lib/buildkite-agent/builds/buildkite-i-0ffc7f3847ddd3a4a-1/sorbet/sorbet
 [2021-08-27T00:33:31Z] [90m# Host "github.com" already in list of known hosts at "/var/lib/buildkite-agent/.ssh/known_hosts"[0m
 [2021-08-27T00:33:31Z] [90m$[0m git remote set-url origin git@github.com:stripe/sorbet.git
