@@ -1,2 +1,2 @@
 # Mandolin11
-https://www1.domain.com/controlpanel/foundation/
+echo -n '{"hello": "world"}' | http POST pie.dev/post
