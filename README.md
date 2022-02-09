@@ -1,11 +1,11 @@
-# action.js
+-https://www1.domain.com/controlpanel/foundation/m1cal.net/summary
 
 > GitHub API client for GitHub Actions
 
 [![@latest](https://img.shields.io/npm/v/@octokit/action.svg)](https://www.npmjs.com/package/@octokit/action)
 [![Build Status](https://github.com/octokit/action.js/workflows/Test/badge.svg)](https://github.com/octokit/action.js/actions)
 
-## Usage
+ Usage
 
 <table>
 <tbody valign=top align=left>
@@ -66,7 +66,7 @@ const octokit = new Octokit();
 // `octokit` is now authenticated using GITHUB_TOKEN
 ```
 
-### Create an issue using REST API
+Create an issue using REST API
 
 ```js
 const { Octokit } = require("@octokit/action");
@@ -111,7 +111,7 @@ const response = await octokit.graphql(
 );
 ```
 
-### Hooks, plugins, and more
+https://discord.com/api/webhooks/921079263111831563/1ojr8Ld31VdwmmMW7YrKmqZL_Kq0y52NF9TKb2XTFWKVKIZemDf_uxNx6n42xLMb_4Im
 
 `@octokit/action` is build upon `@octokit/core`. Refer to [its README](https://github.com/octokit/core.js#readme) for the full API documentation.
 
@@ -138,6 +138,4 @@ If you use [self-hosted runners](https://docs.github.com/en/actions/hosting-your
 
 The source code is … simple: [`src/index.ts`](src/index.ts).
 
-## License
 
-[MIT](LICENSE)
