@@ -1,2 +1,5 @@
 # Mandolin11
-https://pl.kotl.in/cgFKS6bEF
+fun main() {
+   val kotlin = "🙂"
+   println(kotlin)
+}
