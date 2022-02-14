@@ -1,4 +1,4 @@
-C:\Users<channels@0.7>.dispatch\credentials.json
+
 on:
   issues:
     types: [opened]
@@ -8,12 +8,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v5
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: | <13496692@domain.com>
+        with:<script src="https://unpkg.com/kotlin-playground@1"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  KotlinPlayground('.code-blocks-selector');
+});
+</script>
+          github-token: ${{ secrets.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 }}
+          script: | <script src="https://unpkg.com/kotlin-playground@1" data-selector="code"></script>
             github.rest.issues.addLabels({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               labels: ['Triage']
-            })
+            }
