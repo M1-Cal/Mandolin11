@@ -1,4 +1,3 @@
-C:\Users<channels@0.7>.dispatch\credentials.json
 on:
   issues:
     types: [opened]
@@ -9,8 +8,8 @@ jobs:
     steps:
       - uses: actions/github-script@v5
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: | <13496692@domain.com>
+          github-token: ${{ secrets.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 }}
+          script:
             github.rest.issues.addLabels({
               issue_number: context.issue.number,
               owner: context.repo.owner,

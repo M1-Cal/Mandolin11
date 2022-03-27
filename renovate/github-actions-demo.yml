@@ -1,17 +1,19 @@
-name: GitHub Actions Demo
-on: [push]
-jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+ https://maldito-dot.%20github.io/remagined-octo-system
+ ​name​: ​Build 
+ ​on​: ​[push, pull_request] 
+ ​jobs​: 
+ ​  ​test​: 
+ ​    ​runs-on​: ​${{ matrix.os }} 
+ ​    ​strategy​: 
+ ​      ​matrix​: 
+ ​        ​os​: ​[ubuntu-latest, macOS-latest, windows-latest] 
+ ​        ​python-version​: ​[3.6, 3.7, 3.8, 3.9] 
+ ​    ​steps​: 
+ ​      - ​uses​: ​actions/checkout@v1 
+ ​      - ​uses​: ​actions/setup-python@v1 
+ ​        ​with​: 
+ ​          ​python-version​: ​${{ matrix.python-version }} 
+ ​      - ​run​: ​python -m pip install -U pip setuptools wheel 
+ ​      - ​run​: ​python -m pip install -r requirements-test.txt 
+ ​      - ​run​: ​python -m pip install -e . 
+ ​      - ​run​: ​python -m pytest
