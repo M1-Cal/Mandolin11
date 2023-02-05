@@ -1,1 +1,1158 @@
-m1oxnard.business.site
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+
+<channel>
+
+<title>Beta Console - developer tool beta releases</title>
+
+<link>https://console.dev/betas/</link>
+
+<description>A live list of every developer tool beta & early access release.</description>
+
+<image>
+
+<title>Beta Console - developer tool beta releases</title>
+
+<link>https://console.dev/betas/</link>
+
+<url>https://console.dev/img/console-mark-256.png</url>
+
+</image>
+
+<language>en-us</language>
+
+<webMaster>hello@console.dev (console.dev)</webMaster>
+
+<managingEditor>hello@console.dev (console.dev)</managingEditor>
+
+<atom:link href="https://console.dev/betas/" rel="self" type="application/rss+xml"/>
+
+<item>
+
+<title>1Password for Git/SSH</title>
+
+<link>https://developer.1password.com/docs/ssh/?ref=console.dev</link>
+
+<pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://developer.1password.com/docs/ssh/</guid>
+
+<description>Store/access SSH keys in 1Password.</description>
+
+<content:encoded>
+
+<![CDATA[ Store/access SSH keys in 1Password. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Netlify Graph</title>
+
+<link>https://www.netlify.com/blog/announcing-netlify-graph-a-faster-way-for-teams-to-develop-web-apps-with-apis?ref=console.dev</link>
+
+<pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.netlify.com/blog/announcing-netlify-graph-a-faster-way-for-teams-to-develop-web-apps-with-apis</guid>
+
+<description>Interface for multiple APIs.</description>
+
+<content:encoded>
+
+<![CDATA[ Interface for multiple APIs. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Google Functions v2, from Google Cloud</title>
+
+<link>https://cloud.google.com/blog/products/serverless/introducing-the-next-generation-of-cloud-functions?ref=console.dev</link>
+
+<pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://cloud.google.com/blog/products/serverless/introducing-the-next-generation-of-cloud-functions</guid>
+
+<description>Next gen serverless functions.</description>
+
+<content:encoded>
+
+<![CDATA[ Next gen serverless functions. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Mac DevToys</title>
+
+<link>https://github.com/ObuchiYuki/DevToysMac?ref=console.dev</link>
+
+<pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://github.com/ObuchiYuki/DevToysMac</guid>
+
+<description>Developer Swiss Army knife.</description>
+
+<content:encoded>
+
+<![CDATA[ Developer Swiss Army knife. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>PgCat</title>
+
+<link>https://github.com/levkk/pgcat?ref=console.dev</link>
+
+<pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://github.com/levkk/pgcat</guid>
+
+<description>Postgres sharding, load balancing, failover.</description>
+
+<content:encoded>
+
+<![CDATA[ Postgres sharding, load balancing, failover. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Email Routing, from Cloudflare</title>
+
+<link>https://blog.cloudflare.com/email-routing-open-beta/?ref=console.dev</link>
+
+<pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://blog.cloudflare.com/email-routing-open-beta/</guid>
+
+<description>Create and routing email addresses</description>
+
+<content:encoded>
+
+<![CDATA[ Create and routing email addresses ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Amplication</title>
+
+<link>https://amplication.com?ref=console.dev</link>
+
+<pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://amplication.com</guid>
+
+<description>Tools for building Node apps.</description>
+
+<content:encoded>
+
+<![CDATA[ Tools for building Node apps. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>BonsaiDB</title>
+
+<link>https://bonsaidb.io?ref=console.dev</link>
+
+<pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://bonsaidb.io</guid>
+
+<description>Document database for Rust.</description>
+
+<content:encoded>
+
+<![CDATA[ Document database for Rust. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Archium</title>
+
+<link>https://archium.io/?ref=console.dev</link>
+
+<pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://archium.io/</guid>
+
+<description>Software architecture analysis.</description>
+
+<content:encoded>
+
+<![CDATA[ Software architecture analysis. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Ploomber</title>
+
+<link>https://ploomber.io?ref=console.dev</link>
+
+<pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://ploomber.io</guid>
+
+<description>Fast data pipelines.</description>
+
+<content:encoded>
+
+<![CDATA[ Fast data pipelines. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Application Security, from Datadog</title>
+
+<link>https://www.datadoghq.com/blog/datadog-application-security/?ref=console.dev</link>
+
+<pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.datadoghq.com/blog/datadog-application-security/</guid>
+
+<description>Cloud security analysis.</description>
+
+<content:encoded>
+
+<![CDATA[ Cloud security analysis. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Grafana Incident</title>
+
+<link>https://grafana.com/blog/2022/02/02/announcing-grafana-incident-smart-incident-management-for-your-teams/?ref=console.dev</link>
+
+<pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://grafana.com/blog/2022/02/02/announcing-grafana-incident-smart-incident-management-for-your-teams/</guid>
+
+<description>Incident management.</description>
+
+<content:encoded>
+
+<![CDATA[ Incident management. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Garage</title>
+
+<link>https://garagehq.deuxfleurs.fr/blog/2022-introducing-garage/?ref=console.dev</link>
+
+<pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://garagehq.deuxfleurs.fr/blog/2022-introducing-garage/</guid>
+
+<description>Self hosted object storage.</description>
+
+<content:encoded>
+
+<![CDATA[ Self hosted object storage. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Scheduled Functions, from Netflixy</title>
+
+<link>https://www.netlify.com/blog/quirrel-joins-netlify-and-scheduled-functions-launches-in-beta?ref=console.dev</link>
+
+<pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.netlify.com/blog/quirrel-joins-netlify-and-scheduled-functions-launches-in-beta</guid>
+
+<description>Schedule serverless functions.</description>
+
+<content:encoded>
+
+<![CDATA[ Schedule serverless functions. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Prisma for CockroachDB</title>
+
+<link>https://www.prisma.io/blog/prisma-preview-cockroach-db-release?ref=console.dev</link>
+
+<pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.prisma.io/blog/prisma-preview-cockroach-db-release</guid>
+
+<description>Prisma ORM for CockroachDB.</description>
+
+<content:encoded>
+
+<![CDATA[ Prisma ORM for CockroachDB. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Fides, from Ethyca</title>
+
+<link>https://ethyca.com/fides/?ref=console.dev</link>
+
+<pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://ethyca.com/fides/</guid>
+
+<description>Privacy policy as code.</description>
+
+<content:encoded>
+
+<![CDATA[ Privacy policy as code. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Falco</title>
+
+<link>https://falco.org/blog/falco-0-31-0/?ref=console.dev</link>
+
+<pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://falco.org/blog/falco-0-31-0/</guid>
+
+<description>Cloud native runtime security.</description>
+
+<content:encoded>
+
+<![CDATA[ Cloud native runtime security. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Redis 7.0 RC1</title>
+
+<link>https://redis.com/blog/redis-7-first-release-candidate/?ref=console.dev</link>
+
+<pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://redis.com/blog/redis-7-first-release-candidate/</guid>
+
+<description>Redis datastore v7 - functions, sharded pub/sub.</description>
+
+<content:encoded>
+
+<![CDATA[ Redis datastore v7 - functions, sharded pub/sub. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Go 1.18</title>
+
+<link>https://go.dev/blog/go1.18beta2?ref=console.dev</link>
+
+<pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://go.dev/blog/go1.18beta2</guid>
+
+<description>Generics, workspaces & fuzzing.</description>
+
+<content:encoded>
+
+<![CDATA[ Generics, workspaces &amp; fuzzing. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Passage</title>
+
+<link>https://passage.id?ref=console.dev</link>
+
+<pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://passage.id</guid>
+
+<description>Biometric auth APIs.</description>
+
+<content:encoded>
+
+<![CDATA[ Biometric auth APIs. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Consul API Gateway</title>
+
+<link>https://www.hashicorp.com/blog/consul-api-gateway-now-in-beta?ref=console.dev</link>
+
+<pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.hashicorp.com/blog/consul-api-gateway-now-in-beta</guid>
+
+<description>API service networking.</description>
+
+<content:encoded>
+
+<![CDATA[ API service networking. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Block Protocol</title>
+
+<link>https://blockprotocol.org/?ref=console.dev</link>
+
+<pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://blockprotocol.org/</guid>
+
+<description>Open standard for data driven blocks.</description>
+
+<content:encoded>
+
+<![CDATA[ Open standard for data driven blocks. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>UseCSV</title>
+
+<link>https://layercode.com/usecsv?ref=console.dev</link>
+
+<pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://layercode.com/usecsv</guid>
+
+<description>CSV import functionality.</description>
+
+<content:encoded>
+
+<![CDATA[ CSV import functionality. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>ZenML</title>
+
+<link>https://github.com/zenml-io/zenml?ref=console.dev</link>
+
+<pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://github.com/zenml-io/zenml</guid>
+
+<description>Open source ML ops framework.</description>
+
+<content:encoded>
+
+<![CDATA[ Open source ML ops framework. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Rainway</title>
+
+<link>https://rainway.com/blog/2022/01/25/rainway-sdk-public-release/?ref=console.dev</link>
+
+<pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://rainway.com/blog/2022/01/25/rainway-sdk-public-release/</guid>
+
+<description>Interactive app streaming.</description>
+
+<content:encoded>
+
+<![CDATA[ Interactive app streaming. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>soketi</title>
+
+<link>https://docs.soketi.app/?ref=console.dev</link>
+
+<pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://docs.soketi.app/</guid>
+
+<description>Fast websocket server.</description>
+
+<content:encoded>
+
+<![CDATA[ Fast websocket server. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>React Native</title>
+
+<link>https://reactnative.dev/blog/2022/01/19/version-067?ref=console.dev</link>
+
+<pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://reactnative.dev/blog/2022/01/19/version-067</guid>
+
+<description>Mobile GUI framework.</description>
+
+<content:encoded>
+
+<![CDATA[ Mobile GUI framework. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Devbook</title>
+
+<link>https://www.usedevbook.com/?ref=console.dev</link>
+
+<pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.usedevbook.com/</guid>
+
+<description>Interactive developer docs.</description>
+
+<content:encoded>
+
+<![CDATA[ Interactive developer docs. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Framer Sites</title>
+
+<link>https://www.framer.com/sites/?ref=console.dev</link>
+
+<pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.framer.com/sites/</guid>
+
+<description>Design and deploy websites.</description>
+
+<content:encoded>
+
+<![CDATA[ Design and deploy websites. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Pijul</title>
+
+<link>https://pijul.org/posts/2022-01-08-beta/?ref=console.dev</link>
+
+<pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://pijul.org/posts/2022-01-08-beta/</guid>
+
+<description>Distributed version control.</description>
+
+<content:encoded>
+
+<![CDATA[ Distributed version control. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Netmaker</title>
+
+<link>https://netmaker.org?ref=console.dev</link>
+
+<pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://netmaker.org</guid>
+
+<description>Manage WireGuard networks.</description>
+
+<content:encoded>
+
+<![CDATA[ Manage WireGuard networks. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Waypoint 0.7, from HashiCorp</title>
+
+<link>https://www.hashicorp.com/blog/waypoint-0-7-reimagines-ui-and-extends-deployment-workflows?ref=console.dev</link>
+
+<pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.hashicorp.com/blog/waypoint-0-7-reimagines-ui-and-extends-deployment-workflows</guid>
+
+<description>Build, deploy, release across platforms.</description>
+
+<content:encoded>
+
+<![CDATA[ Build, deploy, release across platforms. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Quickwit</title>
+
+<link>https://quickwit.io/?ref=console.dev</link>
+
+<pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://quickwit.io/</guid>
+
+<description>Open source search engine.</description>
+
+<content:encoded>
+
+<![CDATA[ Open source search engine. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Tooljet</title>
+
+<link>https://tooljet.com/?ref=console.dev</link>
+
+<pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://tooljet.com/</guid>
+
+<description>Open source low-code framework.</description>
+
+<content:encoded>
+
+<![CDATA[ Open source low-code framework. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Lambda Powertools for TS, from AWS</title>
+
+<link>https://awslabs.github.io/aws-lambda-powertools-typescript/latest/?ref=console.dev</link>
+
+<pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://awslabs.github.io/aws-lambda-powertools-typescript/latest/</guid>
+
+<description>TypeScript utilities for AWS Lambda.</description>
+
+<content:encoded>
+
+<![CDATA[ TypeScript utilities for AWS Lambda. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Reshape</title>
+
+<link>https://github.com/fabianlindfors/reshape?ref=console.dev</link>
+
+<pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://github.com/fabianlindfors/reshape</guid>
+
+<description>Zero-downtime migrations for Postgres.</description>
+
+<content:encoded>
+
+<![CDATA[ Zero-downtime migrations for Postgres. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Devsession</title>
+
+<link>https://devsession.is/?ref=console.dev</link>
+
+<pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://devsession.is/</guid>
+
+<description>Concurrent coding in your IDE or terminal.</description>
+
+<content:encoded>
+
+<![CDATA[ Concurrent coding in your IDE or terminal. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>youki</title>
+
+<link>https://www.utam0k.jp/en/blog/2021/12/27/youki_first_release/?ref=console.dev</link>
+
+<pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://www.utam0k.jp/en/blog/2021/12/27/youki_first_release/</guid>
+
+<description>A container runtime in Rust.</description>
+
+<content:encoded>
+
+<![CDATA[ A container runtime in Rust. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Instant Reply, from Bird Eats Bug</title>
+
+<link>https://birdeatsbug.com/instant-replay-beta?ref=console.dev</link>
+
+<pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://birdeatsbug.com/instant-replay-beta</guid>
+
+<description>Browser session reply.</description>
+
+<content:encoded>
+
+<![CDATA[ Browser session reply. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Tokio Console</title>
+
+<link>https://tokio.rs/blog/2021-12-announcing-tokio-console?ref=console.dev</link>
+
+<pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://tokio.rs/blog/2021-12-announcing-tokio-console</guid>
+
+<description>Debugging for async Rust.</description>
+
+<content:encoded>
+
+<![CDATA[ Debugging for async Rust. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>GitOps Core, from Weave</title>
+
+<link>https://github.com/weaveworks/weave-gitops?ref=console.dev</link>
+
+<pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://github.com/weaveworks/weave-gitops</guid>
+
+<description>Deploy to k8s using Git & pull requests.</description>
+
+<content:encoded>
+
+<![CDATA[ Deploy to k8s using Git &amp; pull requests. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Fine Grained Auth, from Auth0</title>
+
+<link>https://auth0.com/blog/auth0-fine-grained-authorization-developer-community-preview-release/?ref=console.dev</link>
+
+<pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://auth0.com/blog/auth0-fine-grained-authorization-developer-community-preview-release/</guid>
+
+<description>Authorization API based on Google Zanzibar.</description>
+
+<content:encoded>
+
+<![CDATA[ Authorization API based on Google Zanzibar. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Sourcegraph Cloud</title>
+
+<link>https://about.sourcegraph.com/blog/sourcegraph-cloud-for-teams-now-in-private-beta/?ref=console.dev</link>
+
+<pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+
+<dc:creator>
+
+<![CDATA[ console.dev ]]>
+
+</dc:creator>
+
+<guid>https://about.sourcegraph.com/blog/sourcegraph-cloud-for-teams-now-in-private-beta/</guid>
+
+<description>Code search for teams.</description>
+
+<content:encoded>
+
+<![CDATA[ Code search for teams. ]]>
+
+</content:encoded>
+
+</item>
+
+<item>
+
+<title>Code Search, from GitHub</title>
+
+<link>https://cs.github.com/about?ref=console.dev</link>
+
+<pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+
+<
+
